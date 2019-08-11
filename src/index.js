@@ -22,6 +22,7 @@ var router = new VueRouter({
         { path: '/login', component: Login },
         { path: '/register', component: Register },
         { path: '/websocket', component: Websocket },
+        { path: '/video', component:  Video },
     ]
 })
 
@@ -34,7 +35,7 @@ var vm = new Vue({
     components: {
         "v-header": Header,
         "v-body": Account,
-        "v-video": Video
+        // "v-video": Video
     },
     router
 
