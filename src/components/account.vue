@@ -5,6 +5,7 @@
         <router-link to="/login">登录</router-link>
         <router-link to="/register">注册</router-link>
         <router-link to="/websocket">聊天</router-link>
+        <router-link to="/video">视频</router-link>
         <input type="button" @click="exportJSON" value="asdasdasd">
       </div>
       <div><router-view></router-view></div>
